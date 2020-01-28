@@ -268,6 +268,27 @@ public class SnakeLadder extends Application {
 
     public void movePlayer2() {
         currPos+=rand;
+
+        if(currPos==5 ){
+            currPos=28;
+
+        }
+        if(currPos==51){
+            currPos=62;
+        }
+        if(currPos==56){
+
+            currPos=39;
+
+        }
+        if(currPos==33){
+            currPos=17;
+        }
+        if(currPos>64){
+            currPos=64;
+        }
+
+
         Tile newPos=map.get(currPos);
        // player.setCenterX(newPos.getX()+40);
         //player.setCenterY(newPos.getY()+40);

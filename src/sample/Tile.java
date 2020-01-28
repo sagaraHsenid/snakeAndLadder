@@ -24,7 +24,6 @@ public Tile(int x,int y){
     setFill(Color.GRAY);
     setStroke(Color.BLACK);
 
-
 }
 
 }
